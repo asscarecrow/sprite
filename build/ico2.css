@@ -1,0 +1,302 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-back {
+  background-image: url(./icon/ico2.png);
+  background-position: -87px -119px;
+  width: 23px;
+  height: 16px;
+}
+.icon-bar-home-active {
+  background-image: url(./icon/ico2.png);
+  background-position: 0px -88px;
+  width: 23px;
+  height: 21px;
+}
+.icon-bar-home {
+  background-image: url(./icon/ico2.png);
+  background-position: -33px -88px;
+  width: 23px;
+  height: 21px;
+}
+.icon-bar-invite-active {
+  background-image: url(./icon/ico2.png);
+  background-position: -88px -35px;
+  width: 22px;
+  height: 22px;
+}
+.icon-bar-invite {
+  background-image: url(./icon/ico2.png);
+  background-position: -66px -88px;
+  width: 22px;
+  height: 21px;
+}
+.icon-bar-uc-active {
+  background-image: url(./icon/ico2.png);
+  background-position: -29px -119px;
+  width: 19px;
+  height: 21px;
+}
+.icon-bar-uc {
+  background-image: url(./icon/ico2.png);
+  background-position: 0px -119px;
+  width: 19px;
+  height: 21px;
+}
+.icon-check {
+  background-image: url(./icon/ico2.png);
+  background-position: -88px 0px;
+  width: 25px;
+  height: 25px;
+}
+.icon-checked {
+  background-image: url(./icon/ico2.png);
+  background-position: -44px -44px;
+  width: 25px;
+  height: 25px;
+}
+.icon-circle-com {
+  background-image: url(./icon/ico2.png);
+  background-position: 0px 0px;
+  width: 34px;
+  height: 34px;
+}
+.icon-circle-org {
+  background-image: url(./icon/ico2.png);
+  background-position: -44px 0px;
+  width: 34px;
+  height: 34px;
+}
+.icon-circle-per {
+  background-image: url(./icon/ico2.png);
+  background-position: 0px -44px;
+  width: 34px;
+  height: 34px;
+}
+.icon-fly {
+  background-image: url(./icon/ico2.png);
+  background-position: -179px -31px;
+  width: 15px;
+  height: 21px;
+}
+.icon-graph {
+  background-image: url(./icon/ico2.png);
+  background-position: -179px -62px;
+  width: 15px;
+  height: 21px;
+}
+.icon-hot {
+  background-image: url(./icon/ico2.png);
+  background-position: 0px -150px;
+  width: 13px;
+  height: 21px;
+}
+.icon-map {
+  background-image: url(./icon/ico2.png);
+  background-position: -98px -88px;
+  width: 15px;
+  height: 21px;
+}
+.icon-note {
+  background-image: url(./icon/ico2.png);
+  background-position: -179px 0px;
+  width: 15px;
+  height: 21px;
+}
+.icon-recommend {
+  background-image: url(./icon/ico2.png);
+  background-position: -179px -124px;
+  width: 15px;
+  height: 16px;
+}
+.icon-search-industry {
+  background-image: url(./icon/ico2.png);
+  background-position: -153px 0px;
+  width: 16px;
+  height: 20px;
+}
+.icon-search-map {
+  background-image: url(./icon/ico2.png);
+  background-position: -153px -30px;
+  width: 16px;
+  height: 20px;
+}
+.icon-search-org {
+  background-image: url(./icon/ico2.png);
+  background-position: -153px -60px;
+  width: 16px;
+  height: 20px;
+}
+.icon-search-v {
+  background-image: url(./icon/ico2.png);
+  background-position: -153px -90px;
+  width: 16px;
+  height: 20px;
+}
+.icon-search {
+  background-image: url(./icon/ico2.png);
+  background-position: -58px -119px;
+  width: 19px;
+  height: 20px;
+}
+.icon-tel {
+  background-image: url(./icon/ico2.png);
+  background-position: -153px -120px;
+  width: 8px;
+  height: 12px;
+}
+.icon-type {
+  background-image: url(./icon/ico2.png);
+  background-position: -179px -93px;
+  width: 15px;
+  height: 21px;
+}
+.icon-v1 {
+  background-image: url(./icon/ico2.png);
+  background-position: -123px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-v2 {
+  background-image: url(./icon/ico2.png);
+  background-position: -123px -60px;
+  width: 20px;
+  height: 20px;
+}
+.icon-v3 {
+  background-image: url(./icon/ico2.png);
+  background-position: -123px -30px;
+  width: 20px;
+  height: 20px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-back {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-bar-home-active {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-bar-home {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-bar-invite-active {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-bar-invite {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-bar-uc-active {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-bar-uc {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-check {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-checked {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-circle-com {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-circle-org {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-circle-per {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-fly {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-graph {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-hot {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-map {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-note {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-recommend {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-search-industry {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-search-map {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-search-org {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-search-v {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-search {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-tel {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-type {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-v1 {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-v2 {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+  .icon-v3 {
+    background-image: url(./icon/ico2@2x.png);
+    background-size: 194px 171px;
+  }
+}

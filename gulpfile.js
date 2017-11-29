@@ -14,7 +14,6 @@ const Spritify = require('spritify');
 
 // sprite module
 var module = 'ico';
-console.log(argv);
 if(argv.module==='ico2'){
 	module= 'ico2'
 }
